@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website</title>
+    <style>
+     body{
+        background-color: darkgrey;
+        font-family:Arial, Helvetica, sans-serif;
+     }
+     .navbar{
+        background-color: black;
+        border-radius: 30px;
+     }
+     .navbar ul{
+        overflow: auto;
+     }
+     .navbar li{
+        float: left;
+        list-style: none;
+        margin:10px 20px;
+        padding-top: 5px;
+     }
+     .navbar li a{
+        color: aliceblue;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        padding: 10px 10px;
+     }
+     .search{
+        float: right;
+        color: whitesmoke;
+        padding-top:5px;
+        padding-bottom: 2px;
+        padding-right: 20px;
+     }
+     .search input{
+        border: 2px solid black;
+        border-radius: 30px;
+        padding:5px 20px;
+        margin:5px 10px;
+        width:150px;
+     }
+     .navbar li a:hover{
+        color:gray;
+
+     }
+     section img{
+        width:150px;
+        height:150px;
+        border: 2px solid gray;
+        border-radius: 250px;
+        position: relative;
+        margin-left: 43%;
+     }
+    .container{
+        width:80%;
+        margin: 0 auto;
+        padding:20px;
+    }
+    .ahmad h2{
+        font-size: 48px;
+        margin:0 0 20px;
+        text-align: center;
+    }
+    .ahmad p{
+        font-size: 20px;
+        margin:0 0 20px;
+        text-align: center;
+    }
+    .ahmad{
+        color: aliceblue;
+    }
+    .ahmad a{
+        background-color: aliceblue;
+        color:black;
+        padding:10px 15px;
+        border: 2px solid black;
+        border-radius: 20px;
+        width:20px;
+        margin-left: 45%;
+        margin-top: 50%;
+    }
+    .ahmad a:hover{
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+    .ahmad1{
+        background-color: aliceblue;
+        color: black;
+        margin:20px 0px;
+        padding:10px 20px;
+        border-radius: 20px;
+        filter: opacity(80%);
+    }
+    #about{
+        margin-top: 50px;
+    }
+    #about h2{
+        font-size: 48px;
+    }
+    #about p{
+        font-size: 20px;
+    }
+    #Courses h2{
+        font-size: 48px;
+    }
+    #Courses ul li{
+        font-size: 20px;
+    }
+    #Contact h2{
+        font-size: 48px;
+    }
+    #Contact p{
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+                  <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website">
+                  </div>
+            </ul>
+        </nav>
+    </header>
+   
+    
+    <section id="hero" class="ahmad">
+        <div class="container">
+            <img src="https://ideogram.ai/assets/image/lossless/response/zVQ0D3apTQWWTE0DbQanRw">
+            <h2>Welcome to Ahmad Raza School</h2>
+            <p>Providing quality education over 20 years</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section id="about" class="ahmad1">
+        <div class="container">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur recusandae amet iusto optio quod cupiditate, sint, illo quas non repudiandae odio facere, eos aperiam dolorum voluptatem placeat laboriosam in impedit!</p>
+        </div>
+    </section>
+    <section id="Courses" class="ahmad1">
+        <div class="container">
+            <h2>Our courses</h2>
+            <ul>
+                <li>Mathematics</li>
+                <li>English</li>
+                <li>Urdu</li>
+                <li>Computer Science</li>
+                <li>Islamiat</li>
+            </ul>
+        </div>
+    </section>
+    <section id="Contact" class="ahmad1">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: ara81443@gmail.com</p>
+            <p>Phone: +923008085793</p>
+            <p>Address: 123 gulgust colony,Multan</p>
+        </div>
+    </section>
+
+</body>
+</html>
